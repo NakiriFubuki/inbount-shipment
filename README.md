@@ -7,6 +7,14 @@ Admins manage inbound shipments; warehouse users record counted cartons and quan
 
 ---
 
+## 🎬 **Project Demo Video**
+
+📺 Watch the full system demo (login, inbound records, counting & more):
+
+👉 **[Watch on Google Drive](https://drive.google.com/file/d/1s0JJtM03ImrCnYDX_20kKrT2zqExLyXd/view?usp=sharing)**
+
+---
+
 ## ✨ **Features**
 
 - 🔐 **Role-Based Auth** — Separate **Admin** / **Warehouse User** login, registration, show/hide password, and forgot-password reset links
