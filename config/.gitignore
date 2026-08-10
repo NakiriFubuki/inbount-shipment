@@ -1,0 +1,2 @@
+# Do not commit real SMTP passwords
+email.php

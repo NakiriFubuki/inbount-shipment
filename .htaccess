@@ -1,0 +1,12 @@
+# Inbound Shipment System — cPanel / Apache
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^config/ - [F,L]
+    RewriteRule ^storage/ - [F,L]
+    RewriteRule ^database/ - [F,L]
+    RewriteRule ^vendor/ - [F,L]
+</IfModule>
+
+Options -Indexes

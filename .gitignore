@@ -1,0 +1,35 @@
+# Dependencies
+/vendor/
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+config/database.local.php
+config/email.local.php
+config/app.local.php
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Logs & temp
+*.log
+*.tmp
+*.cache
+logs/*
+!logs/.gitkeep
+storage/*
+!storage/.gitkeep
+
+# Uploads (keep folder)
+uploads/*
+!uploads/.gitkeep
+
+# Local archives / helpers
+*.zip
+_screenshot_login.php
